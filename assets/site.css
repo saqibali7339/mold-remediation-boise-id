@@ -333,3 +333,24 @@ table.cost td:first-child{font-weight:700;color:var(--blue-900);width:30%}
 .drop .sub{position:absolute;left:100%;top:0;min-width:280px;background:#fff;border:1px solid var(--line);border-radius:14px;box-shadow:0 20px 40px -18px rgba(11,31,59,.35);padding:8px;display:none;z-index:50}
 .drop .has-sub:hover .sub,.drop .has-sub:focus-within .sub{display:block}
 .hero-img img{width:100%;height:100%;min-height:440px;object-fit:cover;border-radius:20px;display:block;box-shadow:0 30px 60px -30px rgba(11,31,59,.35)}
+/* Shared card grids (moved from homepage inline styles so hub pages can use them) */
+.svc-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.svc{display:flex;flex-direction:column;padding:24px;border-radius:16px;background:#fff;border:1px solid var(--line);text-decoration:none;color:var(--ink);transition:.15s;min-height:170px}
+.svc:hover{border-color:var(--blue);box-shadow:0 16px 30px -20px rgba(11,31,59,.5)}
+.svc h3{margin:12px 0 6px;font-size:20px}
+.svc p{font-size:15px;color:var(--muted);margin:0 0 14px}
+.svc .go{margin-top:auto;font-weight:700;color:var(--orange-600);font-size:15px}
+.svc.feature{grid-row:span 2;background:var(--blue);color:#fff;border-color:var(--blue)}
+.svc.feature h3{color:#fff;font-size:26px}.svc.feature p{color:#C4D6EE}
+.svc.feature .ph{min-height:160px;margin:-4px -4px 16px}
+.area-map{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.area{padding:22px;border-radius:14px;background:#fff;border:1px solid var(--line);text-decoration:none;color:var(--ink)}
+.area:hover{border-color:var(--orange)}
+.area b{font:800 22px var(--head);color:var(--blue-900);display:block}
+.area span{font-size:14.5px;color:var(--muted)}
+.why{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border-top:1px solid var(--line)}
+.why > div{padding:30px 28px 0 0}
+.why .n{font:800 44px/1 var(--head);color:var(--orange);margin-bottom:14px}
+@media(max-width:900px){.svc-grid{grid-template-columns:1fr 1fr}.svc.feature{grid-row:auto;grid-column:span 2}.area-map{grid-template-columns:1fr 1fr}.why{grid-template-columns:1fr}}
+@media(max-width:560px){.svc-grid{grid-template-columns:1fr}.svc.feature{grid-column:auto}}
+
