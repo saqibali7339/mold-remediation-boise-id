@@ -388,3 +388,11 @@ table.cost td:first-child{font-weight:700;color:var(--blue-900);width:30%}
 figure{margin:0}
 /* Note text under tables must stay readable on dark sections */
 .bg-blue .note{color:#C4D6EE}
+/* Orange final sections: same layouts, orange background (overrides .bg-blue/.cta-solid bg) */
+section.bg-orange{background:var(--orange);color:#fff}
+.bg-orange h2,.bg-orange h3{color:#fff}
+.bg-orange p,.bg-orange .lede,.bg-orange .sec-head p{color:rgba(255,255,255,.92)}
+.bg-orange .check li{color:#fff}
+.bg-orange .note{color:rgba(255,255,255,.85)}
+.bg-orange .eyebrow{color:#fff}
+.bg-orange .btn-ghost{color:#fff;box-shadow:inset 0 0 0 2px rgba(255,255,255,.7)}
