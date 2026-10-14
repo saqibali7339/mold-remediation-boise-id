@@ -3,4 +3,4 @@ Allow: /
 Disallow: /sewage-backup-cleanup-boise-id/
 Disallow: /thank-you/
 
-Sitemap: https://moldinspectionboise.com/sitemap.xml
+Sitemap: https://boisemoldexperts.com/sitemap.xml
