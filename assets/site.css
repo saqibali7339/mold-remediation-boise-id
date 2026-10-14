@@ -900,6 +900,7 @@ main:has(> section:last-of-type.cc-cta) + footer{margin-top:32px}
 .ki-cta{background:var(--blue-900);color:#fff;padding:64px 0;text-align:center}
 .ki-cta h2{color:#fff}
 .ki-cta .lede{color:#C4D6EE}
+.ki-cta .lede{margin-inline:auto;text-align:center}
 .ki-cta .note{color:#C4D6EE}
 .ki-cta .btn-row{justify-content:center}
 main:has(> section:last-of-type.ki-cta) + footer{margin-top:32px}
