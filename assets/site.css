@@ -204,6 +204,7 @@ section{padding:84px 0}
 .cta-card .box{background:var(--cream);border-radius:24px;display:grid;grid-template-columns:1.2fr 1fr;overflow:hidden;border:1px solid #EEDFCB}
 .cta-card .box > div:first-child{padding:46px}
 .bg-blue .faq summary{color:#fff}
+section.bg-blue + section.bg-blue{margin-top:32px}
 .note.sources{margin-top:28px}
 .cta-card .box > div:last-child{display:flex;align-items:center;justify-content:flex-end;padding:0 46px}
 .cta-card .ph{border-radius:0;min-height:100%}
