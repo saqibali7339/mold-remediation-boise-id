@@ -419,6 +419,7 @@ main:has(> section:last-of-type.cta-solid) + footer{margin-top:32px}
 .ref-split{display:grid;grid-template-columns:1.15fr .85fr;gap:48px;align-items:start}
 .ref-darkcard{background:var(--blue-900);color:#fff;border-radius:20px;padding:32px}
 .ref-darkcard h3{color:#fff}
+.ref-darkcard h2{color:#fff}
 .ref-darkcard p{color:#C4D6EE}
 .ref-darkcard .btn{margin-top:6px}
 .ref-scenario{background:var(--tint);border-radius:18px;padding:28px 32px}
