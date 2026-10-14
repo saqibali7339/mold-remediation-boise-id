@@ -354,4 +354,7 @@ table.cost td:first-child{font-weight:700;color:var(--blue-900);width:30%}
 .why .n{font:800 44px/1 var(--head);color:var(--orange);margin-bottom:14px}
 @media(max-width:900px){.svc-grid{grid-template-columns:1fr 1fr}.svc.feature{grid-row:auto;grid-column:span 2}.area-map{grid-template-columns:1fr 1fr}.why{grid-template-columns:1fr}}
 @media(max-width:560px){.svc-grid{grid-template-columns:1fr}.svc.feature{grid-column:auto}}
-
+/* Cards have white bg, so inside dark sections they need dark text */
+.bg-blue .card{color:var(--ink)}
+.bg-blue .card h3{color:var(--blue-900)}
+.bg-blue .card p{color:var(--muted)}
