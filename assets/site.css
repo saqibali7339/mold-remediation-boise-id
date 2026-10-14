@@ -812,3 +812,55 @@ main:has(> section:last-of-type.ci-cta) + footer{margin-top:32px}
 .cr-cta .cr-btn-row{justify-content:center}
 main:has(> section:last-of-type.cr-cta) + footer{margin-top:32px}
 @media(max-width:900px){.cr-hero-split,.cr-split{grid-template-columns:1fr}.cr-myths,.cr-timeline{grid-template-columns:1fr}}
+
+/* Closet Mold Removal Caldwell (cc-*) — reference layout, ORIGINAL site colors only. */
+.cc-hero{text-align:center;padding:64px 0 56px}
+.cc-crumbs{color:var(--muted);font-size:14px}
+.cc-crumbs a{color:var(--muted);text-decoration:none}
+.cc-eyebrow{display:block;color:var(--orange);font:700 13px/1 var(--body);letter-spacing:2px;text-transform:uppercase;margin:18px 0 16px}
+.cc-hero h1{color:var(--blue-900);font-size:clamp(34px,5vw,54px);line-height:1.08;margin:0 auto 20px;max-width:18ch}
+.cc-lede{color:var(--muted);font-size:19px;line-height:1.6;max-width:660px;margin:0 auto 28px}
+.cc-btn-row{display:flex;gap:14px;justify-content:center;flex-wrap:wrap}
+.cc-btn{display:inline-flex;align-items:center;justify-content:center;padding:17px 26px;border-radius:999px;font:700 17px/1 var(--body);text-decoration:none;background:var(--orange);color:#fff;box-shadow:0 6px 18px -6px rgba(242,107,31,.7)}
+.cc-btn-outline{background:transparent;color:var(--blue-900);border:2px solid var(--blue-900);box-shadow:none}
+.cc-sec{padding:64px 0}
+.cc-sec-tint{background:var(--tint)}
+.cc-sec-head{max-width:720px;margin-bottom:32px}
+.cc-sec-head.center{margin-left:auto;margin-right:auto;text-align:center}
+.cc-sec-head h2{color:var(--blue-900);font-size:clamp(28px,3.6vw,40px);line-height:1.12;margin:0 0 12px}
+.cc-sec-head p{color:var(--muted);font-size:18px;line-height:1.6;margin:0}
+.cc-grid-4{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.cc-grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:20px}
+.cc-grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.cc-card{background:#fff;border:1px solid var(--line);border-radius:16px;padding:26px}
+.cc-card h3{color:var(--blue-900);margin:0 0 10px;font-size:19px}
+.cc-card p{color:var(--muted);line-height:1.6;margin:0}
+.cc-keep{background:var(--tint)}
+.cc-replace{background:var(--cream)}
+.cc-badge{display:inline-block;font:800 11px/1 var(--body);letter-spacing:1.5px;text-transform:uppercase;padding:7px 10px;border-radius:6px;margin-bottom:14px}
+.cc-badge-save{background:var(--blue-900);color:#fff}
+.cc-badge-drop{background:var(--orange);color:#fff}
+.cc-keep ul,.cc-replace ul{list-style:none;padding:0;margin:0;display:grid;gap:14px}
+.cc-keep li,.cc-replace li{color:var(--blue-900);line-height:1.55;border-top:1px solid var(--line);padding-top:14px}
+.cc-split{display:grid;grid-template-columns:1fr 1.1fr;gap:48px;align-items:start}
+.cc-split-img{margin:0}
+.cc-split-img img{width:100%;height:auto;border-radius:16px;display:block}
+.cc-check{list-style:none;padding:0;margin:24px 0 0;display:grid;gap:12px}
+.cc-check li{padding-left:30px;position:relative;color:var(--blue-900);line-height:1.55}
+.cc-check li::before{content:"✓";position:absolute;left:0;top:0;width:20px;height:20px;border-radius:5px;background:var(--blue-900);color:#fff;display:grid;place-items:center;font-size:12px}
+.cc-note{color:var(--muted);line-height:1.6;margin:24px 0 0}
+.cc-signs{list-style:none;padding:0;margin:0;display:grid;gap:0;max-width:860px}
+.cc-signs li{padding:18px 0 18px 30px;position:relative;color:var(--blue-900);font-size:18px;border-bottom:1px solid var(--line)}
+.cc-signs li::before{content:"✓";position:absolute;left:0;top:18px;color:var(--orange);font-weight:800}
+.cc-steps{display:grid;grid-template-columns:repeat(4,1fr);gap:0;counter-reset:s;border-top:2px solid var(--line)}
+.cc-steps>div{padding:28px 22px 0 0;position:relative}
+.cc-steps>div::before{counter-increment:s;content:counter(s,decimal-leading-zero);position:absolute;top:-15px;left:0;background:var(--orange);color:#fff;font:800 13px var(--head);padding:6px 10px;border-radius:999px}
+.cc-steps h3{margin-top:12px;color:var(--blue-900)}
+.cc-steps p{color:var(--muted);font-size:16px;line-height:1.6}
+.cc-callout{background:#fff;border:1px solid var(--line);border-radius:16px;padding:32px 30px;max-width:1120px;margin:0 auto}
+.cc-cta{background:var(--blue-900);padding:72px 0;text-align:center}
+.cc-cta h2{color:#fff;font-size:clamp(30px,4vw,44px);margin:0 0 16px}
+.cc-cta p{color:#C4D6EE;font-size:18px;max-width:640px;margin:0 auto 28px}
+.cc-cta .cc-hours{color:#C4D6EE;margin:28px 0 0;font-size:15px}
+main:has(> section:last-of-type.cc-cta) + footer{margin-top:32px}
+@media(max-width:900px){.cc-grid-4,.cc-grid-2,.cc-grid-3,.cc-split{grid-template-columns:1fr}.cc-steps{grid-template-columns:1fr 1fr}}
