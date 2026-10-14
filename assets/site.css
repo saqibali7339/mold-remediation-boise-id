@@ -381,3 +381,6 @@ table.cost td:first-child{font-weight:700;color:var(--blue-900);width:30%}
 .svc-grid.cols-2{grid-template-columns:repeat(2,1fr)}
 @media(max-width:900px){.steps.cols-3{grid-template-columns:1fr 1fr}.svc-grid.cols-2{grid-template-columns:1fr 1fr}}
 @media(max-width:560px){.steps.cols-3{grid-template-columns:1fr}.svc-grid.cols-2{grid-template-columns:1fr}}
+/* Colored wraps need internal breathing room (else content touches the box edges) */
+.wrap.bg-blue,.wrap.bg-tint,.wrap.bg-cream{padding:48px 44px;border-radius:20px}
+@media(max-width:700px){.wrap.bg-blue,.wrap.bg-tint,.wrap.bg-cream{padding:32px 22px}}
