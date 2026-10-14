@@ -388,3 +388,6 @@ table.cost td:first-child{font-weight:700;color:var(--blue-900);width:30%}
 figure{margin:0}
 /* Note text under tables must stay readable on dark sections */
 .bg-blue .note{color:#C4D6EE}
+/* Gap between a blue final section and the footer so the two dark blocks don't merge */
+main:has(> section:last-of-type.bg-blue) + footer,
+main:has(> section:last-of-type.cta-solid) + footer{margin-top:32px}
