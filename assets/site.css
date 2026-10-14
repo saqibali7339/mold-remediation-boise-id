@@ -520,3 +520,50 @@ main:has(> section:last-of-type.cta-solid) + footer{margin-top:32px}
 main:has(> section:last-of-type.wh-cta) + footer{margin-top:32px}
 @media(max-width:900px){.wh-hero-grid{grid-template-columns:1fr}.wh-hero-card{margin-right:0;margin-bottom:24px}.wh-hero-img{min-height:280px}.wh-grid-4{grid-template-columns:repeat(2,1fr)}.wh-grid-3,.wh-grid-2{grid-template-columns:1fr}}
 @media(max-width:560px){.wh-grid-4{grid-template-columns:1fr}.wh-hero-card{padding:32px 24px}}
+
+/* Logitech-layout (lg-*) — Closet Mold Cleanup Nampa only. Reference layout, ORIGINAL site colors only. */
+.lg-hero{background:#fff;padding:64px 0 72px}
+.lg-hero-grid{display:grid;grid-template-columns:1fr 1.05fr;gap:56px;align-items:center}
+.lg-eyebrow{display:block;font:700 12px/1 var(--body);letter-spacing:.14em;text-transform:uppercase;color:var(--orange);margin-bottom:14px}
+.lg-hero h1{color:var(--blue-900);font-size:clamp(32px,4.2vw,48px);line-height:1.12;margin:14px 0 16px}
+.lg-lede{color:var(--muted);font-size:18px;line-height:1.65;margin:0 0 26px}
+.lg-btn-row{display:flex;gap:12px;flex-wrap:wrap}
+.lg-btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:var(--orange);color:#fff;font:700 16px/1 var(--body);padding:15px 26px;border-radius:8px;text-decoration:none;border:0;cursor:pointer;transition:background .15s,transform .15s}
+.lg-btn:hover{background:var(--orange-600);transform:translateY(-1px)}
+.lg-btn-outline{background:#fff;color:var(--orange);box-shadow:inset 0 0 0 2px var(--orange)}
+.lg-btn-outline:hover{background:var(--orange-100);color:var(--orange-600)}
+.lg-hero-media{position:relative;padding:24px 24px 0 0}
+.lg-blob{position:absolute;top:0;right:0;bottom:24px;left:24px;background:var(--orange);border-radius:58% 42% 55% 45%/48% 55% 45% 52%;transform:rotate(2deg)}
+.lg-hero-media img{position:relative;z-index:2;width:100%;height:400px;object-fit:cover;display:block;border-radius:20px;box-shadow:0 24px 48px -24px rgba(11,31,59,.35)}
+.lg-sec{padding:72px 0}
+.lg-sec-head{margin-bottom:36px}
+.lg-sec-head h2{color:var(--blue-900);font-size:clamp(26px,3vw,34px);margin:0 0 14px}
+.lg-sec-head p{color:var(--muted);font-size:17px;line-height:1.65;margin:0;max-width:720px}
+.lg-sec-head.center{text-align:center}
+.lg-sec-head.center p{margin:0 auto}
+.lg-gray{background:var(--tint)}
+.lg-grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.lg-card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:28px 24px}
+.lg-card h3{color:var(--blue-900);font-size:19px;margin:16px 0 10px}
+.lg-card p{color:var(--muted);font-size:15.5px;line-height:1.6;margin:0}
+.lg-ic{display:inline-flex;align-items:center;justify-content:center;width:44px;height:44px;border-radius:50%;background:var(--orange-100);color:var(--orange);font:700 15px/1 var(--body)}
+.lg-card-hot{background:var(--blue-900);border-color:var(--blue-900)}
+.lg-card-hot h3{color:#fff}
+.lg-card-hot p{color:#C4D6EE}
+.lg-card-hot .lg-ic{background:rgba(255,255,255,.14);color:#fff}
+.lg-card .lg-btn{margin-top:20px}
+.lg-check{list-style:none;padding:0;margin:0;max-width:780px}
+.lg-check li{display:flex;gap:12px;align-items:flex-start;padding:14px 0;border-bottom:1px solid var(--line);color:var(--ink);font-size:16.5px;line-height:1.55}
+.lg-check li::before{content:"✓";color:var(--orange);font-weight:800;flex:none}
+.lg-callout{background:var(--orange-100);border:1px solid var(--line);border-radius:14px;padding:28px 30px}
+.lg-flag{display:block;font:700 12px/1.4 var(--body);letter-spacing:.1em;text-transform:uppercase;color:var(--orange);margin-bottom:12px}
+.lg-callout p{color:var(--ink);font-size:16.5px;line-height:1.65;margin:0}
+.lg-prose{max-width:780px}
+.lg-prose h2{color:var(--blue-900);font-size:clamp(26px,3vw,34px);margin:0 0 16px}
+.lg-prose p{color:var(--muted);font-size:17px;line-height:1.7;margin:0 0 16px}
+.lg-cta{background:var(--blue-900);padding:72px 0;text-align:center}
+.lg-cta h2{color:#fff;font-size:clamp(28px,3.4vw,38px);margin:0 0 14px}
+.lg-cta p{color:#C4D6EE;font-size:18px;line-height:1.65;max-width:640px;margin:0 auto 30px}
+main:has(> section:last-of-type.lg-cta) + footer{margin-top:32px}
+@media(max-width:900px){.lg-hero-grid{grid-template-columns:1fr}.lg-grid-3{grid-template-columns:1fr 1fr}.lg-hero-media{padding:16px 16px 0 0}.lg-hero-media img{height:300px}}
+@media(max-width:560px){.lg-grid-3{grid-template-columns:1fr}.lg-hero-media img{height:240px}}
