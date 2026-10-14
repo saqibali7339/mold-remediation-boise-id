@@ -374,3 +374,5 @@ table.cost td:first-child{font-weight:700;color:var(--blue-900);width:30%}
 .issues .n{font:800 30px/1 var(--head);color:var(--orange);margin-bottom:10px}
 @media(max-width:900px){.home-hero .grid{grid-template-columns:1fr}}
 @media(max-width:560px){.fork{grid-template-columns:1fr}}
+/* Steps descriptions need light text inside dark sections */
+.bg-blue .steps p{color:#C4D6EE}
