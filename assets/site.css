@@ -930,6 +930,7 @@ main:has(> section:last-of-type.ki-cta) + footer{margin-top:32px}
 .kr-bar .btn-call{background:#fff;color:var(--blue-900)}
 .kr-bar .btn-call:hover{background:#FFE8D6}
 main:has(> section:last-of-type.kr-bar) + footer{margin-top:32px}
+main:has(> section:last-of-type.kr-cta) + footer{margin-top:32px}
 @media(max-width:800px){.kr-hero{grid-template-columns:1fr}.kr-hero .ph{min-height:280px}.kr-hero-panel{padding:36px 24px}.kr-pillars{grid-template-columns:1fr}.kr-bar-inner{justify-content:center;text-align:center}}
 
 .kr-scen{display:grid;grid-template-columns:1.3fr 1fr;gap:48px;align-items:start}
