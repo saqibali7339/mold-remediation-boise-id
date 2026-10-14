@@ -376,3 +376,8 @@ table.cost td:first-child{font-weight:700;color:var(--blue-900);width:30%}
 @media(max-width:560px){.fork{grid-template-columns:1fr}}
 /* Steps descriptions need light text inside dark sections */
 .bg-blue .steps p{color:#C4D6EE}
+/* Grid modifiers */
+.steps.cols-3{grid-template-columns:repeat(3,1fr)}
+.svc-grid.cols-2{grid-template-columns:repeat(2,1fr)}
+@media(max-width:900px){.steps.cols-3{grid-template-columns:1fr 1fr}.svc-grid.cols-2{grid-template-columns:1fr 1fr}}
+@media(max-width:560px){.steps.cols-3{grid-template-columns:1fr}.svc-grid.cols-2{grid-template-columns:1fr}}
