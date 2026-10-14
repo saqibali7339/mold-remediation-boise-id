@@ -446,3 +446,12 @@ main:has(> section:last-of-type.cta-solid) + footer{margin-top:32px}
 .ref-faq details p{color:var(--muted);padding:0 0 18px;margin:0}
 @media(max-width:900px){.ref-cards{grid-template-columns:1fr 1fr}.ref-split{grid-template-columns:1fr}.ref-check{grid-template-columns:1fr}.ref-steps{grid-template-columns:1fr 1fr}}
 @media(max-width:560px){.ref-cards{grid-template-columns:1fr}.ref-steps{grid-template-columns:1fr}.ref-strip span{padding:6px 16px}.ref-strip span + span{border-left:0}}
+
+.ref-hero-split{display:grid;grid-template-columns:1.1fr .9fr;gap:56px;align-items:center;padding:64px 0 56px}
+.ref-hero-split h1 em{font-style:normal;color:var(--orange)}
+.ref-hero-split .lede{color:var(--muted);margin:0 0 16px}
+.ref-hero-split .btn-row{justify-content:flex-start;margin-top:26px}
+.ref-hero-split .btn-ghost{color:var(--blue-900);box-shadow:inset 0 0 0 2px var(--blue-900)}
+.ref-hero-split .btn-ghost:hover{color:#fff}
+.ref-hero-split .ref-hero-card{margin:0;max-width:none}
+@media(max-width:900px){.ref-hero-split{grid-template-columns:1fr;gap:32px;padding:48px 0 40px}}
