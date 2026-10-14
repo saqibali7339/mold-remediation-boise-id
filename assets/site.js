@@ -1,4 +1,4 @@
-/* moldinspectionboise.com — mobile menu + quote form */
+/* boisemoldexperts.com — mobile menu + quote form */
 (function(){
   var b=document.querySelector('.burger'),m=document.querySelector('.mob-menu'),nav=document.querySelector('.nav');
   /* Build the mobile menu from the desktop nav (once) so links always match */
