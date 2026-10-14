@@ -358,3 +358,19 @@ table.cost td:first-child{font-weight:700;color:var(--blue-900);width:30%}
 .bg-blue .card{color:var(--ink)}
 .bg-blue .card h3{color:var(--blue-900)}
 .bg-blue .card p{color:var(--muted)}
+
+/* Homepage + hub rules (moved from per-page <style> blocks - one shared CSS) */
+.home-hero{padding:56px 0 0;background:linear-gradient(180deg,var(--tint),#fff 85%)}
+.home-hero .grid{display:grid;grid-template-columns:1.1fr .9fr;gap:48px;align-items:start}
+.home-hero h1{font-size:clamp(38px,5.4vw,66px)}
+.home-hero h1 em{font-style:normal;color:var(--orange)}
+.fork{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:28px 0 0}
+.fork a{display:block;padding:20px;border-radius:16px;background:#fff;border:1.5px solid var(--line);text-decoration:none;color:var(--ink);transition:.15s}
+.fork a:hover{border-color:var(--blue);transform:translateY(-2px);box-shadow:0 14px 30px -18px rgba(11,31,59,.4)}
+.fork b{display:block;font:800 19px var(--head);color:var(--blue-900);margin-bottom:4px}
+.fork span{font-size:15px;color:var(--muted)}
+.fork .urgent{background:var(--blue);border-color:var(--blue)}
+.fork .urgent b{color:#fff}.fork .urgent span{color:#C4D6EE}
+.issues .n{font:800 30px/1 var(--head);color:var(--orange);margin-bottom:10px}
+@media(max-width:900px){.home-hero .grid{grid-template-columns:1fr}}
+@media(max-width:560px){.fork{grid-template-columns:1fr}}
