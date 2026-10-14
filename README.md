@@ -1,16 +1,16 @@
-# moldinspectionboise.com — static site (GitHub Pages ready)
+# boisemoldexperts.com — static site (GitHub Pages ready)
 
 Plain HTML/CSS, no build step and no framework. 18 public pages + 1 unpublished draft.
 Total page weight is ~25 KB of HTML and ~20 KB of CSS per page, plus Google Fonts.
 
 ## Go live in 5 steps
-1. Create a GitHub repo (e.g. `moldinspectionboise`) and upload **the contents of this folder** to the repo root, including `CNAME` and `.nojekyll`.
+1. Create a GitHub repo (e.g. `boisemoldexperts`) and upload **the contents of this folder** to the repo root, including `CNAME` and `.nojekyll`.
 2. Go to repo **Settings → Pages → Source: Deploy from a branch → `main` / root**.
 3. At your domain registrar, add these DNS records:
    - `A` records for `@` → `185.199.108.153`, `185.199.109.153`, `185.199.110.153`, `185.199.111.153`
    - `CNAME` for `www` → `YOUR-GITHUB-USERNAME.github.io`
-4. Back in Settings → Pages, confirm the custom domain `moldinspectionboise.com` and tick **Enforce HTTPS** once it's available (DNS can take up to 24 h).
-5. Submit `https://moldinspectionboise.com/sitemap.xml` in Google Search Console.
+4. Back in Settings → Pages, confirm the custom domain `boisemoldexperts.com` and tick **Enforce HTTPS** once it's available (DNS can take up to 24 h).
+5. Submit `https://boisemoldexperts.com/sitemap.xml` in Google Search Console.
 
 ## Before launch — REQUIRED edits (find & replace across all files)
 | Find | Replace with |
