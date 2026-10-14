@@ -198,6 +198,8 @@ section{padding:84px 0}
 .cta-orange::before{width:420px;height:420px;left:-120px;top:-200px}
 .cta-orange::after{width:300px;height:300px;right:-80px;bottom:-160px}
 .cta-orange h2{color:#fff}
+.cta-orange .lede{color:#fff}
+.cta-orange .eyebrow{color:#fff}
 .cta-orange .big-num{font:800 clamp(36px,6vw,64px)/1 var(--head);color:#fff;text-decoration:none;display:inline-block;margin:6px 0 10px;letter-spacing:-.02em}
 .cta-orange p{opacity:.92}
 .cta-card{padding:80px 0}
